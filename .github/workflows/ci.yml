@@ -25,6 +25,8 @@ jobs:
         run: npm run test 
 
   Style:
+    name: Style
+    runs-on: ubuntu-latest
     steps:
       - name: Check Linter
         run: npm run format:check
